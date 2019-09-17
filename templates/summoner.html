@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'main.css')}}">
+
+    <br>
+    <h2 class="summonerName">{{name}}</h2>
+    <table id="champions">
+        <tr>
+            <th>CHAMPION NAME</th>
+            <th>CHAMPION LVL</th>
+            <th>CHAMPION EXP</th>
+        </tr>
+    {% for e in list %}
+    <tr>
+        <td>{{e}}</td>
+        <td>{{list[e][0]}}</td>
+        <td>{{list[e][1]}}</td>
+    </tr>
+    {% endfor %}
+    </table>
+{% endblock content %}

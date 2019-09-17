@@ -1,0 +1,106 @@
+.layoutBody {
+    background: #9B51E0;
+    color: #333333;
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+  }
+
+  .bg-steel {
+    background-color: #000000;
+  }
+
+  .site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+
+  .site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 1000;
+  }
+
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+
+  .summonerForum{
+    margin-left: 500px;
+  }
+
+  .summonerNameInput {
+      width: 250px;
+      height: 38px;
+      left: 409px;
+      top: 301px;
+      text-align: center;
+      background: #FBFBFB;
+      border: 3px solid #2F3DBC;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+  }
+  .submitButton{
+    height: 38px;
+    width: 100px;
+    background: #000000;
+    color: #FBFBFB;
+    border: 3px solid #2F3DBC;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
+
+  .summonerName{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    text-align: left;
+    color: white;
+  }
+
+  table{
+    border-radius: 1em;
+  }
+  #champions{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    align-self: auto;
+  }
+
+  #champions td, #champions th {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 8px;
+    border-radius: 5px;
+    
+  }
+#champions tr:nth-child(even){background-color: #FF405C; color: #000000;}
+#champions tr:nth-child(odd){color: #000000;}
+
+#champions th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: whitesmoke;
+  color: black;
+  
+}
+
+.aboutSection {
+  color: white;
+}
+
+.homeDiv {
+  background: #000000;
+}
